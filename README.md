@@ -6,69 +6,83 @@ A machine learning project that leverages customer data to predict churn probabi
 
 ## 🚀 Features
 
-- **Exploratory Data Analysis (EDA)** – uncover trends and patterns in customer behavior  
-- **Data Preprocessing & Feature Engineering** – clean and transform data for optimal model performance  
-- **Churn Prediction Models** – train and compare machine learning models  
-- **Model Evaluation** – assess results with accuracy, precision, recall, F1-score, and ROC-AUC  
-- **Visualizations** – generate confusion matrices and ROC-AUC curves  
-- **Predictive Tool** – estimate churn risk for new customers  
+* **Exploratory Data Analysis (EDA)** – uncover trends and patterns in customer behavior
+* **Data Preprocessing & Feature Engineering** – clean and transform data for optimal model performance
+* **Churn Prediction Models** – train and compare machine learning models
+* **Model Evaluation** – assess results with accuracy, precision, recall, F1-score, and ROC-AUC
+* **Visualizations** – generate confusion matrices and ROC-AUC curves
+* **Predictive Tool** – estimate churn risk for new customers
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Python  
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-- **Evaluation Metrics**: ROC-AUC, confusion matrix, cross-validation  
+* **Language**: Python
+* **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+* **Evaluation Metrics**: ROC-AUC, confusion matrix, cross-validation
 
 ---
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the repository**  
+1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Ardusingh7/churnAnalysis.git
    cd churnAnalysis
-Create and activate a virtual environment (optional but recommended)
+   ```
 
-bash
-Copy code
-python3 -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-Install dependencies
+2. **Create and activate a virtual environment** (optional but recommended)
 
-bash
-Copy code
-pip install -r requirements.txt
-If requirements.txt is missing, ensure you install:
-pandas, numpy, matplotlib, seaborn, scikit-learn, jupyter
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
+   ```
 
-Run the notebook
+3. **Install dependencies**
 
-bash
-Copy code
-jupyter notebook churnAnalysis.ipynb
-🔮 Future Enhancements
-Add advanced models: Random Forest, XGBoost, or Neural Networks
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Apply techniques to handle class imbalance (e.g., SMOTE)
+   > If `requirements.txt` is missing, ensure you install:
+   > `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyter`
 
-Build a dashboard (Streamlit/Dash/Flask) for interactive churn prediction
+4. **Run the notebook**
 
-Automate retraining workflows with CI/CD integration
+   ```bash
+   jupyter notebook churnAnalysis.ipynb
+   ```
 
-Connect to real-time data streams for live churn monitoring
+---
 
-🤝 Contribution Guidelines
+## 🔮 Future Enhancements
+
+* Add advanced models: Random Forest, XGBoost, or Neural Networks
+* Apply techniques to handle class imbalance (e.g., SMOTE)
+* Build a dashboard (Streamlit/Dash/Flask) for interactive churn prediction
+* Automate retraining workflows with CI/CD integration
+* Connect to real-time data streams for live churn monitoring
+
+---
+
+## 🤝 Contribution Guidelines
+
 We welcome contributions! To contribute:
 
-Fork the repository
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/new-idea`)
+3. Commit your changes (`git commit -m "Added a new feature"`)
+4. Push to your fork (`git push origin feature/new-idea`)
+5. Open a Pull Request
 
-Create a new branch (git checkout -b feature/new-idea)
+Please make sure your contributions align with existing code style and include proper documentation.
 
-Commit your changes (git commit -m "Added a new feature")
+---
 
-Push to your fork (git push origin feature/new-idea)
+## 📜 License
 
-Open a Pull Request
+This project is licensed under the **MIT License** – feel free to use, modify, and distribute as per the license terms.
+
+---
