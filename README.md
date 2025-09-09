@@ -80,9 +80,3 @@ We welcome contributions! To contribute:
 Please make sure your contributions align with existing code style and include proper documentation.
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License** – feel free to use, modify, and distribute as per the license terms.
-
----
